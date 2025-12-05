@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Page</title>
+  <link rel="stylesheet" href="{% static 'myapp/menu.css' %}" >
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">Foodieland</div>
+      <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a href="Recipes">Recipes</a></li>
+        <li><a href="Blog">Blog</a></li>
+        <li><a href="Contact">Contact</a></li>
+        <li><a href="About us">About us</a></li>
+      </ul>
+    </div>
+    
+  </header>
+  <section class="categories">
+    <div class="container">
+      <h2>Categories</h2>
+      <div class="category-list">
+        <div class="category-card">
+          <img src="img/breakfast.jpg" alt="Breakfast">
+          <p>Breakfast</p>
+        </div>
+        <div class="category-card">
+          <img src="img/vegan.png" alt="Vegan">
+          <p>Vegan</p>
+        </div>
+        <div class="category-card">
+          <img src="img/meat.jpg" alt="Meat">
+          <p>Meat</p>
+        </div>
+        <div class="category-card">
+          <img src="img/dessert.jpg" alt="Dessert">
+          <p>Dessert</p>
+        </div>
+        <div class="category-card">
+          <img src="img/lunch.jpg" alt="Lunch">
+          <p>Lunch</p>
+        </div>
+        <div class="category-card">
+          <img src="img/chocolate.jpg" alt="Chocolate">
+          <p>Chocolate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="recipes">
+    <div class="container">
+      <h2>Simple and tasty recipes</h2>
+      <p class="subtitle">Explore our delicious recipes made simple for you</p>
+      <div class="recipe-grid">
+        <div class="recipe-card">
+          <img src="img/burger.jpg" alt="Burger">
+          <h3>Burger</h3>
+          <p>30 min - Snack </p>
+        </div>
+        <div class="recipe-card">
+          <img src="img/salmon.jpg" alt="Salmon">
+          <h3>Salmon fish</h3>
+          <p>30 Minutes - Fish</p>
+        </div>
+        <div class="recipe-card">
+          <img src="img/pancake.jpg" alt="Pancake">
+          <h3>Pancake</h3>
+          <p>30 Minutes - Breakfast</p>
+        </div>
+        <div class="recipe-card">
+          <img src="img/salad.jpg" alt="salad">
+          <h3>Fresh and Healthy Mixed Mayonnaise salad</h3>
+          <p>30 Minutes - Healthy</p>
+        </div>
+        <div class="recipe-card">
+          <img src="img/chicken.jpg" alt="Chicken">
+          <h3>Chicken Meatballs with Cream Cheese</h3>
+          <p>30 Minutes - meat</p>
+        </div>
+        <div class="recipe-card card1">
+          <img src="img/6ci sekil.jpg" alt="Healthy">
+          <h3>Healthy salad</h3>
+          <p>25 Minutes - Healthy</p>
+        </div>
+        <div class="recipe-card">
+          <img src="img/orange pancake.jpg" alt="Orange Pancake">
+          <h3>Fruity Pancake with Orange</h3>
+          <p>30 Minutes - Sweet</p>
+        </div>
+        <div class="recipe-card">
+          <img src="img/cr.jpg" alt="Chicken with Rice">
+          <h3>The Best Easy One Pot Chicken and Rice</h3>
+          <p>30 Minutes - Snack</p>
+        </div>
+        <div class="recipe-card">
+          <img src="img/sonuncu.jpg" alt="Pasta">
+          <h3>The Creamiest Creamy Chicken and Bacon Pasta</h3>
+          <p>30 Minutes - Noodles</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
